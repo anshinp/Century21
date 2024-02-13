@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C21</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            width: 100%;
+            background-color: black;
+            height: 85px;
+        }
+
+        a:link {
+            color: rgb(225, 225, 184);
+            transition: color 0.3s ease;
+
+        }
+
+        a:visited {
+            color: rgb(225, 225, 184);
+        }
+
+        a:hover {
+            color: azure;
+        }
+
+        .img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .chat {
+            border: 1px solid black;
+            width: 90px;
+            height: 40px;
+            background-color: rgb(225, 225, 184);
+            border-radius: 7px;
+            bottom: 50px;
+            right: 50px;
+            position: fixed;
+            z-index: 100;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 348px 348px 348px;
+            grid-template-rows: 420px 420px 420px;
+            margin-left: 160px;
+            gap: 50px;
+            height: 1100px;
+        }
+
+        .grid-container>div {
+            border: 1px solid rgb(46, 46, 46);
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .sale {
+            border: 0px solid;
+            width: 110px;
+            height: 20px;
+            background-color: gainsboro;
+            text-align: center;
+            margin-top: 4px;
+        }
+    </style>
+
+</head>
+
+<body style="font-family: sans-serif;">
+    <header class="header" style="width: 100%;">
+        <div style="display: flex;justify-content: space-between;">
+            <div style="color: rgb(225, 225, 184);display: flex;margin-left: 40px;font-weight: bold;">
+                <H1
+                    style="margin-left: 0px;margin-top: 25px;font-family: 'Times New Roman', Times, serif;width: 400px;">
+                    CENTURY 21</H1>
+                <nav style="width: 100%;margin-top: 40px;">
+                    <ul style="display: flex; list-style-type: none; justify-content: space-between;">
+                        <li><a href="" style="text-decoration: none;">Find a Home</a></li>
+                        <li><a href="" style="text-decoration: none;">Sell a Home </a></li>
+                        <li><a href="" style="text-decoration: none;">Mortgage</a></li>
+                        <li><a href="" style="text-decoration: none;">Join 21</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <nav style="width: 100%;">
+                    <ul
+                        style="display: flex;justify-content: space-between;list-style: none;margin-right: 100px;margin-top: 40px;width: 100px;">
+                        <li><a href="" style="text-decoration: none;">Saved</a></li>
+                        <li><a href="" style="text-decoration: none">More</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div style="width: 100%;height: auto;">
+            <div style="width: 70%;height: 300px;background-color: gainsboro;margin-left: 210px;margin-top: 25px;">
+                <h3 style="position: relative;width: 400px;top: 50px;left: 50px;font-weight: lighter;">Explore Local
+                    Real Estate</h3> <br>
+                <h1 style="position: relative;width: 400px;top: 50px;left: 50px;font-size: xx-large;">Find a Home to
+                    Suit Your Lifestyle</h1>
+                <img src="https://cdn.decoist.com/wp-content/uploads/2018/11/Minimal-and-modern-cabin-sits-on-the-edge-of-a-cliff.jpg"
+                    style="width: 300px;height: 299px;margin-top: -115px;margin-left: 742px;opacity: 80%;">
+            </div>
+            <div style="width: 50%;height: 120px;background-color: white;margin-left: 25%;margin-top: -100px;border-radius: 5px;position: relative;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            ">
+                <h4 style="position: relative;top: 30px;left: 15%;font-weight: normal;">Find Home or Agents</h4>
+                <input type="text" style="width: 50%;height: 20%;margin-left: 15%;margin-top: 40px;"
+                    placeholder="Location,Address or Agent Name">
+                <button style="height: 28px;width: 70px;border: 0px;">Search</button>
+            </div>
+            <div style="text-align: center;">
+                <br><br><br><br><br>
+                <h1 style="font-weight: lighter;">What's Happening In Your Area</h1>
+                <h3 style="font-weight: bolder;margin-top: -10px;color: rgb(225, 225, 184);">___</h3><br><br>
+                <h3 style="font-weight: lighter;">If you’re looking for a new home, an investment property or to explore
+                    the area we’ll help you find exactly what you’re looking for.
+
+                </h3><br><br>
+                <h3>Dallas,TX</h3>
+                <br><br>
+                <div class="chat">
+                    <h3
+                        style="font-weight: lighter;padding: 10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+                        Chat</h3>
+                </div>
+                <div
+                    style="width: 70%;height: 120px;background-color: gainsboro;margin-left: 210px;margin-top: 30px;display: flex;justify-content: space-between;">
+                    <section style="margin-left: 55px;margin-top: 40px;">
+                        <h1>3072</h1>
+                        <p style="text-decoration: underline;">Homes For Sale</p>
+                    </section>
+                    <section style="margin-top: 40px;">
+                        <h1>30</h1>
+                        <p style="text-decoration: underline;">New Listings</p>
+                    </section>
+                    <section style="margin-top: 40px;">
+                        <h1>1282</h1>
+                        <p style="text-decoration: underline;">Real Estate Agents</p>
+                    </section>
+                    <section style="margin-right: 55px;margin-top: 40px;">
+                        <h1>25</h1>
+                        <p style="text-decoration: underline;">Real Estate Offices</p>
+                    </section>
+                </div>
+                <br><br><br><br><br>
+                <div style="height: 150px;">
+                    <h2 style="text-align: left;margin-left: 210px;font-weight: lighter;">FIND A HOME</h2><br>
+                    <h1 style="text-align: left;margin-left: 210px;">Home Listings In Your Area</h1>
+                    <h1 style="text-align: left;margin-left: 210px;">Dallas,Texas</h1><br>
+                </div>
+
+            </div>
+            <br><br><br>
+            <div class="grid-container">
+                <div><br><br>
+                    <header style="display: flex;justify-content: space-between;">
+                        <section>
+                            <h2>$180,000</h2>
+                        </section>
+                        <section>
+                            <div class="sale">FOR SALE</div>
+                        </section>
+                    </header>
+                    <section>
+                        <ul style="display: flex; width: 199px;justify-content: space-between; margin-left: 15px;">
+                            <li>3 beds</li>
+                            <li>2 baths</li>
+                            <li>2750 sqft</li>
+                        </ul><br>
+                    </section>
+                    <img src="https://cdn.carrot.com/uploads/sites/42864/2021/05/Best-Times-to-Sell-Your-House-in-Dallas.jpg"
+                        style="width: 350px;height: 250px;">
+                    <br><br>
+                    <a href="" style="color: rgb(129, 129, 187);">7327 Hedge Drive
+                        Dallas, TX 75249</a>
+                </div>
+                <div><br><br>
+                    <header style="display: flex;justify-content: space-between;">
+                        <section>
+                            <h2>$143,500</h2>
+                        </section>
+                        <section>
+                            <div class="sale">FOR SALE</div>
+                        </section>
+                    </header>
+                    <section>
+                        <ul style="display: flex; width: 199px;justify-content: space-between; margin-left: 15px;">
+                            <li>4 beds</li>
+                            <li>3 baths</li>
+                            <li>2040 sqft</li>
+                        </ul><br>
+                    </section>
+                    <img src="https://photos.zillowstatic.com/fp/ffb1fda8aa84a1cd3736b6ed58b36534-p_e.jpg"
+                        style="width: 350px;height: 250px;">
+                    <br><br>
+                    <a href="" style="color: rgb(129, 129, 187);">10206 Chesterton Drive
+                        Dallas, TX 75238</a>
+                </div>
+                <div><br><br>
+                    <header style="display: flex;justify-content: space-between;">
+                        <section>
+                            <h2>$250,000</h2>
+                        </section>
+                        <section>
+                            <div class="sale">FOR SALE</div>
+                        </section>
+                    </header>
+                    <section>
+                        <ul style="display: flex; width: 199px;justify-content: space-between; margin-left: 15px;">
+                            <li>6 beds</li>
+                            <li>8 baths</li>
+                            <li>4750 sqft</li>
+                        </ul><br>
+                    </section>
+                    <img src="https://img-v2.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1194i215%2Fcqfdy7v7qjs0mz6t3ys3a65m87i215&option=N&h=472&permitphotoenlargement=false"
+                        style="width: 350px;height: 250px;">
+                    <br><br>
+                    <a href="" style="color: rgb(129, 129, 187);">6556 Crestmere Drive
+                        Dallas, TX 75254</a>
+                </div>
+                <div><br><br>
+                    <header style="display: flex;justify-content: space-between;">
+                        <section>
+                            <h2>$440,400</h2>
+                        </section>
+                        <section>
+                            <div class="sale">FOR SALE</div>
+                        </section>
+                    </header>
+                    <section>
+                        <ul style="display: flex; width: 199px;justify-content: space-between; margin-left: 15px;">
+                            <li>3 beds</li>
+                            <li>2 baths</li>
+                            <li>3750 sqft</li>
+                        </ul><br>
+                    </section>
+                    <img src="https://images.squarespace-cdn.com/content/v1/5dfbd8dadbd1cf5beb06a3a1/1613542077772-JGYZ80FHHBZO6QGNCNPF/13.jpg?format=1000w"
+                        style="width: 350px;height: 250px;">
+                    <br><br>
+                    <a href="" style="color: rgb(129, 129, 187);">5122 Ridgedale Avenue
+                        Dallas, TX 75206</a>
+                </div>
+                <div><br><br>
+                    <header style="display: flex;justify-content: space-between;">
+                        <section>
+                            <h2>$250,500</h2>
+                        </section>
+                        <section>
+                            <div class="sale">FOR SALE</div>
+                        </section>
+                    </header>
+                    <section>
+                        <ul style="display: flex; width: 199px;justify-content: space-between; margin-left: 15px;">
+                            <li>2 beds</li>
+                            <li>2 baths</li>
+                            <li>1950 sqft</li>
+                        </ul><br>
+                    </section>
+                    <img src="https://images.estately.net/153_20429370_0_1694549453_636x435.jpg"
+                        style="width: 350px;height: 250px;">
+                    <br><br>
+                    <a href="" style="color: rgb(129, 129, 187);">3475 Bevann Drive
+                        Farmers Branch, TX 75234</a>
+                </div>
+                <div><br><br>
+                    <header style="display: flex;justify-content: space-between;">
+                        <section>
+                            <h2>$450,000</h2>
+                        </section>
+                        <section>
+                            <div class="sale">FOR SALE</div>
+                        </section>
+                    </header>
+                    <section>
+                        <ul style="display: flex; width: 199px;justify-content: space-between; margin-left: 15px;">
+                            <li>3 beds</li>
+                            <li>3 baths</li>
+                            <li>2350 sqft</li>
+                        </ul><br>
+                    </section>
+                    <img src="https://www.trulia.com/pictures/thumbs_4/zillowstatic/fp/fd7246094cc87fc83da846a2f95e04fe-full.jpg"
+                        style="width: 350px;height: 250px;">
+                    <br><br>
+                    <a href="" style="color: rgb(129, 129, 187);">2011 Kirby Street 102
+                        Dallas, TX 75204</a>
+                </div>
+                <button
+                    style="width: 345px;height: 50px;text-align: center;margin-left: 115%;font-size: large;background-color: white;">View
+                    All 3072 Results</button>
+                <a href="" style="color: rgb(129, 129, 187);margin-top: 80px;margin-left: 91px;">Search in Another
+                    Area</a>
+            </div>
+
+            <div style="width: 70%;height: 300px;background-color: gainsboro;margin-left: 210px;margin-top: 5px;">
+                <h1 style="text-align: center;position: relative;top: 50px;">What Comes Next? You Tell Us</h1>
+                <h3 style="text-align: center;position: relative;top: 80px;font-weight: 50;">Let the CENTURY 21® brand
+                    help you build the business of your dreams.</h3>
+                <div
+                    style="display: flex;justify-content: space-between;width: 500px;margin-top: 100px;margin-left: 250px;">
+                    <button style="width: 400px;height: 40px;margin-left: 20px;border: 0px;">Franchise
+                        Ownership</button>
+                    <button style="width: 400px;height: 40px;margin-left: 60px;border: 0px;">Careers in Real
+                        Estate</button>
+                </div>
+                <br><br>
+                <p style="text-align: center;font-size: xx-small;width: 60%;margin-left: 20%;">Study Source: 2021 Ad Tracking Study. The survey results are based on
+                    1,200 online interviews with a national random sample of adults (ages 18+) who are equal decision
+                    makers in real estate transactions and active in the real estate market (bought or sold a home
+                    within the past two years or, plan to purchase or sell a home within the next two years). Brand
+                    awareness question based on a sample of 1,200 respondents. Results are significant at a 90%
+                    confidence level, with a margin of error of +/-2.4%. Recognition question based on consumers aware
+                    of brand in question. Results are significant at a 90% confidence level, with a margin of error of
+                    +/- 2.4%. The study was conducted by Kantar Group Limited (formerly Millward Brown), a leading
+                    global market research organization, from November 9-27, 2021.
+
+                </p>
+
+            </div>
+        </div>
+</body>
+
+</html>
